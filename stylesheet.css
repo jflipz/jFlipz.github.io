@@ -1,13 +1,6 @@
 /* Mastodon CSS Stylesheet*/
 body{
-	background: #gray;
-	background: -moz-linear-gradient(top,  gray 0%, #7444B4 100%);
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,gray), color-stop(100%,#7db9e8));
-	background: -webkit-linear-gradient(top,  #gray 0%,#7444B4 100%);
-	background: -o-linear-gradient(top,  gray 0%,#7444B4 100%);
-	background: -ms-linear-gradient(top,  gray 0%,#7444B4 100%);
-	background: linear-gradient(to bottom,  gray 0%,#7444B4 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='gray', endColorstr='#7db9e8',GradientType=0 );
+	background: #9a9a9a;
 	background-attachment: fixed;
 }
 #header{
