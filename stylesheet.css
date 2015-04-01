@@ -75,6 +75,7 @@ body{
 	text-align: center;
 	border:3px solid black;
 	border-radius:10px;
+	width:250px;
 }
 .profile_name{
 	font-size: 20px;
@@ -150,7 +151,10 @@ li.active a, li.active a:hover {
 	margin:auto;
 	text-align: center;
 }
-
+.extra_space{
+	height:200px;
+	display:block;
+}
 
 
 
