@@ -223,14 +223,12 @@ li.active a, li.active a:hover {
 }
 #news{
 	display:inline-block;
+	padding-left:30px;
 }
 .fb-page{
-	display:inline-block;
-	text-align: left;
+	display:block;
 }
 #video1{
-	display:inline-block;
-	text-align:right;
 }
 *{
 	border:1px solid black;
