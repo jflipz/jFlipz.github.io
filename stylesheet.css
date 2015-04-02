@@ -179,6 +179,7 @@ li.active a, li.active a:hover {
 	height:500px;
 }
 #homecenter{
+	margin-top:-200px;
 	text-align:center;
 	width:800px;
 	height:300px;
@@ -212,7 +213,9 @@ li.active a, li.active a:hover {
 /*Media*/
 #mediamain{
 	display:block;
-	margin:auto;
+	margin-left:15%;
+	margin-right:15%;
+	width:70%;
 	text-align: center;
 }
 #news{
@@ -222,6 +225,9 @@ li.active a, li.active a:hover {
 	display:inline-block;
 	margin:auto;
 	text-align: center;
+}
+#video1{
+	
 }
 *{
 	border:1px solid black;
