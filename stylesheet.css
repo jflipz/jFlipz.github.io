@@ -215,11 +215,13 @@ li.active a, li.active a:hover {
 }
 /*Media*/
 #mediamain{
-	display:block;
+	display:inline-block;
 	margin-left:15%;
-	margin-right:15%;
-	width:70%;
 	text-align: center;
+}
+#mediamain2{
+	display:inline-block;
+	left: 55%;
 }
 #news{
 	padding-bottom:300px;
