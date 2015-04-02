@@ -222,9 +222,10 @@ li.active a, li.active a:hover {
 	text-align: center;
 }
 #news{
-	padding-bottom:300px;
 	display:inline-block;
 	padding-left:50px;
+	position:relative;
+	top:-200px;
 }
 .fb-page{
 	display:block;
