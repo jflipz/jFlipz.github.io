@@ -141,6 +141,7 @@ li.active a, li.active a:hover {
     text-align:center;
     font-family:sans-serif;
     font-weight:bold;
+    border:3px solid black;
 }
  
 .tab {
@@ -200,7 +201,18 @@ li.active a, li.active a:hover {
 	text-decoration:underline;
 	color:#7444B4;
 }
-
+/* Contact Page */
+#contacts{
+	text-align: center;
+	border: 3px outset black;
+	width:30%;
+	display:block;
+	margin:auto;
+	background-color:gray;
+}
+#contacts ul{
+	list-style-type: none;
+}
 
 
 
