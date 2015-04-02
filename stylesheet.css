@@ -227,7 +227,7 @@ li.active a, li.active a:hover {
 	padding-left:30px;
 }
 .fb-page{
-	display:block;
+	display:inline-block;
 }
 #video1{
 }
