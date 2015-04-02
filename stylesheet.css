@@ -151,7 +151,11 @@ li.active a, li.active a:hover {
 .tab.active {
     display:block;
 }
-
+.fb-page{
+	display:block;
+	margin:auto;
+	text-align: center;
+}
 .extra_space{
 	height:200px;
 	display:block;
@@ -221,10 +225,11 @@ li.active a, li.active a:hover {
 	display:inline-block;
 }
 .fb-page{
-	display:inline-block
+	display:inline-block;
 	text-align: left;
 }
 #video1{
+	display:inline-block;
 	text-align:right;
 }
 *{
