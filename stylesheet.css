@@ -222,7 +222,7 @@ li.active a, li.active a:hover {
 	text-align: center;
 }
 #news{
-	margin-top:-300px;
+	padding-bottom:300px;
 	display:inline-block;
 	padding-left:30px;
 }
