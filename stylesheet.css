@@ -10,6 +10,10 @@ body{
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='white', endColorstr='#1e0033',GradientType=0 );
 	background-attachment: fixed;
 }
+p{
+	padding:2px;
+	font-family:sans-serif;
+}
 #header{
 	background-color: none;
 	width:100%;
@@ -155,10 +159,47 @@ li.active a, li.active a:hover {
 	height:200px;
 	display:block;
 }
-
-
-
-
+/* Homepage */
+.mainpage{
+	display:inline-block;
+	border:3px solid black;
+	background-color:gray;
+	border-radius:5px;
+	opacity:50%;
+}
+#mainsection{
+	padding-left:15px;
+	display:block;
+	text-align:center;
+	width:1650px;
+	float:center;
+	font-family:sans-serif;
+	vertical-align:top;
+}
+#homeleft{
+	text-align:left;
+	width:400px;
+	height:500px;
+}
+#homecenter{
+	text-align:center;
+	width:800px;
+	height:300px;
+}
+#homeright{
+	text-align:right;
+	width:400px;
+	height:500px;
+}
+.statlink{
+	text-decoration:none;
+	font-weight:bold;
+	color:white;
+}
+.statlink:hover{
+	text-decoration:underline;
+	color:#7444B4;
+}
 
 
 
