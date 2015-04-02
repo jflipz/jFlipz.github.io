@@ -169,7 +169,6 @@ li.active a, li.active a:hover {
 	display:block;
 	text-align:center;
 	width:1650px;
-	float:center;
 	font-family:sans-serif;
 	vertical-align:top;
 }
@@ -222,12 +221,11 @@ li.active a, li.active a:hover {
 	display:inline-block;
 }
 .fb-page{
-	display:inline-block;
-	margin:auto;
-	text-align: center;
+	display:inline-block
+	text-align: left;
 }
 #video1{
-	
+	text-align:right;
 }
 *{
 	border:1px solid black;
