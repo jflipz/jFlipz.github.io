@@ -157,11 +157,6 @@ li.active a, li.active a:hover {
 .tab.active {
     display:block;
 }
-.fb-page{
-	display:block;
-	margin:auto;
-	text-align: center;
-}
 .extra_space{
 	height:200px;
 	display:block;
