@@ -1,60 +1,104 @@
-<!-- index.html (Home)-->
-<!DOCTYPE html>
-<html>
-	<head>
-		<meta charset="UTF-8">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
 
-		<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
-		<title>Mastodon Esports</title>
-		<!-- FONTS  -->
-		<link href="http://fonts.googleapis.com/css?family=Raleway:200" rel="stylesheet" type="text/css">
+<head>
+  <title>Mastodon eSports</title>
+  <meta name="description" content="Rising Dota 2 Team from the USA" />
+  <meta name="keywords" content="dota" />
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <script type="text/javascript" src="js/jquery.easing.min.js"></script>
+  <script type="text/javascript" src="js/jquery.lavalamp.min.js"></script>
+  <script type="text/javascript">
+    $(function() {
+      $("#lava_menu").lavaLamp({
+        fx: "backout",
+        speed: 300
+      });
+    });
+  </script>
+    <script type="text/javascript" src="js/jquery.nivo.slider.pack.js"></script>
+    <script type="text/javascript">
+    $(window).load(function() {
+        $('#slider').nivoSlider();
+    });
+    </script>
+
+</head>
+
+<body>
+  <div id="main">	
+    <div id="header">  
+      <h1>Mastodon <span>eSports</span></h1>	
+	  <h2>Amateur Gaming Team</h2>
+    </div><!--close header-->	    
+	<div id="site_content">  
+	  <div id="menu_container">  
+	    <div id="menubar">
+          <ul class="lavaLampWithImage" id="lava_menu">
+            <li class="current"><a href="index.html">Home</a></li>
+            <li><a href="media.html">Media</a></li>
+            <li><a href="team.html">Team</a></li>
+            <li><a href="news.html">News</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+	    </div><!--close menubar-->
+	  </div><!--close menu_container-->
 		
-	</head>
-	<body>
-		<div id="header">
-			<div>
-				<img id="homelogo" src="http://i.imgur.com/SlmjU4E.png"\>
-			</div>
-			<div id ="topbar">
-				<a href="index.html"><div class="topbutton">Home</div></a>
-				<a href="team.html"><div class="topbutton">Team</div></a>
-				<a href="media.html"><div class="topbutton">Media</div></a>
-				<a href="streams.html"><div class="topbutton">Streams</div></a>
-				<a href="contacts.html"><div class="topbutton">Contact Us</div></a>
-			</div>
-		</div>
-		<!-- Main -->
-		<table id="mainsection">
-			<tr>
-				<td><h3 class="homeheader">News</h3></td>
-				<td><h3 class="homeheader">Welcome to Mastodon Esports</h3></td>
-				<td><h3 class="homeheader">About Us</h3></td>
-			</tr>
-			<tr>
-				<td><div id ="homeleft" class = "mainpage">
-					<h3>
-						Dota 2
-					</h3>
-					<p>
-						<a target= "_blank" class = "statlink" href="http://www.joindota.com/en/leagues/america/43-season-5/group/665-north-america-3-1">joinDota League (Division 3)</a><br> Season 5 of the joinDota league provided a platform for mtd.Dota2 to hit their stride.  Even with a roster change about halfway through the season, we tied for second place in the league bracket, unfortunately falling short in the tiebreaker to end up with a third place finish.
-					</p>
-					<hr>
-					<p>
-						<a target = "_blank" class = "statlink" href="http://www.xfire.com/tournament/3788">Canada Cup Open Qualifers</a><br>Season 5 of the Canada cup starts on April 4th, and mtd.Dota2 is making it's debut outside of joinDota and SECS. 108 teams are currently signed up.
-					</p>
-					<hr>
-				</div></td>
-				<td><div id ="homecenter" class = "mainpage">
-					<h3>Welcome!</h3>
-					<p>Hello, this is the homepage of Mastodon Esports, a rising Esports team from the united states.  This site is consistently under heavy maintenance, so if something doesn't work, or you have any recommendations, please shoot us an email at mastodondota@gmail.com.</p>
-				</div></td>
-				<td><div id ="homeright" class = "mainpage">
-					<h4>A long time ago...</h4>
-					<p>At the end of 2013, into the beginning of 2014, a few friends joined to together to start playing Dota on a decently competitive level for the first season of the joinDota League. Having mild success and securing a spot in division 4 for the next season, team "Falling With Style" pushed forward to start climbing the ranks.</p>
-					<p>Most every season brought some form of change, from position swaps to roster changes.  Season 4 saw what was almost a disband of the entire squad, but after a last second roster addition, Falling With Style was reborn as Mastodon.</p>
-					<p>Now we set our sights on growth: individually, as a team, and as brand.</p>
-				</div></td>
-			</tr>
-		</table>
-	</body>
+      <div class="sidebar_container">   		  
+		<div class="sidebar">
+          <div class="sidebar_item">
+            <h2>jDL Season 6</h2>
+			<h4>April 2015</h4>
+            <p>mtd.Dota2 is registered to compete in the sixth season of the joinDota League, starting April 26th at 3:00 PM EST.</p>
+		      <a href="projects.html">Read more</a>
+          </div><!--close sidebar_item--> 
+        </div><!--close sidebar-->     		
+		<div class="sidebar">
+          <div class="sidebar_item">
+            <h2>jDL Season 5</h2>
+			<h4>March 2015</h4>
+            <p>Season 5 of the joinDota league provided a platform for mtd.Dota2 to hit their stride. Even with a roster change about halfway through the season, we tied for second place in the league bracket, unfortunately falling short in the tiebreaker to end up with a third place finish.</p>
+		      <a href="projects.html">Read more</a>
+          </div><!--close sidebar_item--> 
+        </div><!--close sidebar-->   
+		<div class="sidebar">
+          <div class="sidebar_item">
+            <h2>Stampede!</h2>
+			<h4>March 2015</h4>
+            <p>Mastodon eSports launched our website and facebook page.  Go time.</p>
+		      <a href="projects.html">Read more</a>
+          </div><!--close sidebar_item--> 
+        </div><!--close sidebar-->   
+        </div><!--close sidebar_container-->
+		    
+	    <div id="banner_image">
+	      <div id="slider-wrapper">        
+            <div id="slider" class="nivoSlider">
+              <img src="images/slide1.jpg" alt="" />
+              <img src="images/slide2.jpg" alt="" />
+		    </div><!--close slider-->
+		  </div><!--close slider-wrapper-->
+	    </div><!--close banner_image-->	
+		
+      <div id="content">
+        <div class="content_item">
+          <h1>Welcome to Mastodon eSports</h1>
+          <p>Hello, this is the homepage of Mastodon Esports, a rising Esports team from the united states. Currently, we have a Dota 2 team competing in amateur tournaments such as SECS, Canada Cup, joinDota League, and anything else we can get our hands on.  If you have any recommendations, suggestions, or think you could be a good addition to the brand please shoot us an email via the contact us page.</p>
+          <h3>About Us</h3>
+          <div style="width:200px; float:left; padding: 0px 20px 10px 0px;"><img alt="image" src="images/image.jpg" /></div>
+          <p>At the end of 2013, into the beginning of 2014, a few friends joined to together to start playing Dota on a decently competitive level for the first season of the joinDota League. Having mild success and securing a spot in division 4 for the next season, team "Falling With Style" pushed forward to start climbing the ranks.</p>
+          <p>Most every season brought some form of change, from position swaps to roster changes. Season 4 saw what was almost a disband of the entire squad, but after a last second roster addition, Falling With Style was reborn as Mastodon.</p>
+          <p>Now we set our sights on growth: individually, as a team, and as brand.</p>
+		</div><!--close content_item-->	
+	      	
+       <br style="clear:both;" />
+      </div><!--close content-->	
+    </div><!--close site_content-->	
+    <div id="footer">  
+      Website template by <a href="http://www.araynordesign.co.uk">ARaynorDesign</a>
+    </div><!--close footer-->
+  </div><!--close main-->	
+</body>
 </html>
